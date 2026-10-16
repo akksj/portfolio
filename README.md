@@ -4,14 +4,14 @@ Personal portfolio of Sarthak Giri, Full Stack Developer (MERN, PHP/MySQL).
 
 **Live:** https://akksj.github.io/portfolio/
 
-A single-page site in plain HTML, CSS and vanilla JavaScript. There's no build step, so GitHub Pages serves it straight from `main` (root).
+A single-page, chapter-by-chapter scroll story in plain HTML, CSS and JavaScript: intro, the problem, projects as pinned scenes, a skills orbit, a journey timeline and a contact finale. A WebGL aurora and a particle field react to the mouse. Motion uses GSAP 3.13.0 + ScrollTrigger and Lenis 1.3.27 from jsDelivr (pinned versions with SRI). There's no build step. If the CDN fails, JS is off, or the visitor prefers reduced motion, the page shows everything statically.
 
 ## Structure
 
 ```
 index.html            page content, SEO and Open Graph meta
-assets/css/style.css  styles (responsive, dark theme)
-assets/js/main.js     mobile nav, scroll reveal, language bar (static data)
+assets/css/style.css  styles (dark neon theme, glass cards, responsive, reduced-motion rules)
+assets/js/main.js     WebGL aurora, particles, cursor, GSAP/Lenis scroll story, language bar (static data)
 assets/img/favicon.svg
 ```
 
