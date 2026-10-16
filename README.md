@@ -19,7 +19,7 @@ assets/img/favicon.svg
 
 - Projects, skills and timeline live in `index.html`.
 - GitHub language stats are static, in the `LANGUAGES` array in `assets/js/main.js` (snapshot from 16 Oct 2026).
-- LinkedIn and email buttons are hidden placeholders in the Contact section. Set their `href` and remove `hidden` to show them.
+- The email button in the Contact section is a hidden placeholder. Set its `href` and remove `hidden` to show it.
 
 ## Run locally
 
